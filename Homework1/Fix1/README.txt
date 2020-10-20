@@ -4,7 +4,7 @@
     terraform init
     terraform validate
     terraform plan -out terafform_plan.tfplan -var-file="your_tfvars_file_name"
-    terraform apply "terafform_plan"
+    terraform apply "terafform_plan.tfplan"
     
 3. to destroy the configuration run:
     terraform destroy -var-file="your_tfvars_file_name"
